@@ -1,0 +1,9 @@
+Requisitos
+
+- Python
+- VsCode
+- PostGredSQL
+
+
+Install
+- pip install requests
