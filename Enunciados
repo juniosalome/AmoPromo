@@ -1,0 +1,48 @@
+Teste para desenvolvedor FullStack Amo Promo
+Instruções
+Estamos interessados em entender sua lógica de programação e resolução objetiva de problemas, portanto não faz parte do desafio a criação de artefatos de planejamento/gestão de projetos, como: cronogramas, diagrama de gantt, burndown, quadro de demandas etc. Também não pedimos que seja incluído qualquer tipo de teste automatizado (unitários, de integração etc), a fim de manter a objetividade e praticidade da implementação.
+
+Sua capacidade de interpretação também está sendo avaliada, mas lembre-se que não existe uma solução única para o enunciado! Então, siga sua interpretação e use sua criatividade para completar as tarefas especificadas. Boa sorte!
+
+Vamos lá!
+No Passagens Promo, trabalhamos todos os dias com diversas combinações de voos e aeroportos para encontrar a melhor viagem para o nosso cliente. Nesse teste, você deverá criar um script que consuma nossas APIs para realizar as tarefas a seguir:
+
+Obs: As APIs fornecidas são fictícias, e bem mais simples que as que usamos em produção.
+
+Parte 1)
+Inicialmente, obtenha os dados de todos os aeroportos da API mockup de aeroportos domésticos. Para cada combinação possível airport x airport:
+
+Sim! São muitas combinações de aeroportos (Bem vindo ao nosso mundo :D). Sugerimos que nessa primeira parte abrevie para 20x20 aeroportos da sua escolha para agilizar sua velocidade de iteração.
+
+Na etapa seguinte do enunciado, com auxílio de um banco de dados vamos resolver esse problema de forma mais definitiva!
+
+Consulte a nossa API mockup de voos, para capturar os voos agendados para uma data especificada. Use uma data 40 dias a partir da data da execução.
+
+Calcule a distância linear em kms, entre os dois aeroportos (utilizando a lat-lon informados e usando a Formula de Haversine (você encontra facilmente implementações na web :D).
+
+Para cada modelo de aeronave retornado:
+
+Utilize os horários de saída e chegada, e distância linear recém-encontrada entre os aeroportos, para calcular a velocidade aproximada de voo.
+Utilize a distância para obter o custo de tarifa por km voado.
+Parte 2)
+Legal. Na Parte 1, criamos o nosso loop principal de captura de dados e cálculos. Para que isso tenha maior utilidade, vamos adicionar uma camada de persistência ao projeto!
+
+Para cada combinação, queremos que registre no banco pelo menos:
+
+A url da API mockup de voos;
+A distância entre os dois aeroportos;
+O valor mais baixo encontrado para essa rota;
+O modelo de aeronave que opera a opção mais barata.
+O esquema exato em que isso será armazenado (tabelas e relacionamentos), fica por sua conta. Tire proveito da persistência do banco de dados, para conseguir coletar todas as milhares de combinações de aeroportos de forma que, se o script for interrompido em um dado momento, ele seja apto a retomar de onde parou da próxima vez que for chamado.
+
+ATENÇÃO O seu projeto de banco será avaliado, mas tenha em mente que, para nós, um bom design é um que resolva o problema com simplicidade, boa performance e escalabilidade e não necessariamente aquele com o modelo mais normalizado ou que utiliza os recursos mais avançados do SGDB.
+
+Parte 3)
+Agora que já conseguimos explorar as opções de voos, é hora de apresentá-las! Crie uma interface web (pode ser constituído de uma única tela) que mostre:
+
+As 30 viagens mais demorada (duração de voo), no formato de grid/tabela, contendo a duração, a distâmcia, e a aeronave de cada uma dessas rotas;
+Qual o estado com o maior número de aeroportos;
+Uma tabela com todos os aeroportos de origem e qual o destino mais distante e o mais próximo a ele (com voos disponíveis).
+Sinta-se a vontade para utilizar o framework javascript (caso sinta necessidade de um) de sua preferência e para nos criar funcionalidades adicionais (caso tenha tempo para tal). Dica: Sugerimos fortemente que o sistema web seja independente do script de coleta de dados, e que não dependa que todas as rotas tenham sido coletadas para rodar.
+
+Pronto! Agora é só nos enviar o link para o seu repositório e boa sorte!
