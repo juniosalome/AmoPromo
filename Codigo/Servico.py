@@ -14,7 +14,9 @@ senha: szqxIn
 
 
 '''
-
+'''
+Acessa o repositorio
+'''
 class ListaDeRepositorios():
     
     def __init__(self, caminho,tipo ,metodo,username,apikey,pwd):
