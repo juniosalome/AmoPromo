@@ -10,13 +10,13 @@ No Passagens Promo, trabalhamos todos os dias com diversas combinações de voos
 Obs: As APIs fornecidas são fictícias, e bem mais simples que as que usamos em produção.
 
 Parte 1)
-Inicialmente, obtenha os dados de todos os aeroportos da API mockup de aeroportos domésticos. Para cada combinação possível airport x airport:
+Inicialmente, obtenha os dados de todos os aeroportos da API mockup de aeroportos domésticos (http://stub.2xt.com.br/air/airports/pCuxInwy3vYOvlDrqdEl9vN6mLgmOzte). Para cada combinação possível airport x airport:
 
 Sim! São muitas combinações de aeroportos (Bem vindo ao nosso mundo :D). Sugerimos que nessa primeira parte abrevie para 20x20 aeroportos da sua escolha para agilizar sua velocidade de iteração.
 
 Na etapa seguinte do enunciado, com auxílio de um banco de dados vamos resolver esse problema de forma mais definitiva!
 
-Consulte a nossa API mockup de voos, para capturar os voos agendados para uma data especificada. Use uma data 40 dias a partir da data da execução.
+Consulte a nossa API mockup de voos (http://stub.2xt.com.br/air/search), para capturar os voos agendados para uma data especificada. Use uma data 40 dias a partir da data da execução.
 
 Calcule a distância linear em kms, entre os dois aeroportos (utilizando a lat-lon informados e usando a Formula de Haversine (você encontra facilmente implementações na web :D).
 
