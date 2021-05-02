@@ -1,0 +1,63 @@
+{
+    "summary": {
+        "departure_date": "2019-12-01",
+        "from": {
+            "iata": "POA",
+            "city": "Porto Alegre",
+            "lat": -29.98961,
+            "lon": -51.17709,
+            "state": "RS"
+        },
+        "to": {
+            "iata": "MAO",
+            "city": "Manaus",
+            "lat": -3.031327,
+            "lon": -60.046093,
+            "state": "AM"
+        },
+        "currency": "BRL",
+        "user": {
+            "username": "junio",
+            "key": "pCuxInwy3vYOvlDrqdEl9vN6mLgmOzte",
+            "pwd": "szqxIn"
+        }
+    },
+    "options": [
+        {
+            "departure_time": "2019-12-01T22:25:00",
+            "arrival_time": "2019-12-02T02:12:00",
+            "fare_price": 2111.54,
+            "aircraft": {
+                "model": "A 320",
+                "manufacturer": "Airbus"
+            }
+        },
+        {
+            "departure_time": "2019-12-01T05:50:00",
+            "arrival_time": "2019-12-01T09:18:00",
+            "fare_price": 2268.58,
+            "aircraft": {
+                "model": "777-200",
+                "manufacturer": "Boeing"
+            }
+        },
+        {
+            "departure_time": "2019-12-01T09:10:00",
+            "arrival_time": "2019-12-01T12:25:00",
+            "fare_price": 2315.69,
+            "aircraft": {
+                "model": "737-800",
+                "manufacturer": "Boeing"
+            }
+        },
+        {
+            "departure_time": "2019-12-01T13:15:00",
+            "arrival_time": "2019-12-01T14:41:00",
+            "fare_price": 50323.3,
+            "aircraft": {
+                "model": "F-16 Falcon",
+                "manufacturer": "Lockheed"
+            }
+        }
+    ]
+}

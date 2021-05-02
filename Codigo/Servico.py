@@ -41,8 +41,8 @@ class ListaDeRepositorios():
     def imprime_repositorios(self):
         dados_api = self.requisicao_api()
         if type(dados_api) is not int:
-            for i in range(len(dados_api)):
-                print(dados_api[i]['name'])
+            #for i in range(len(dados_api)):
+                print(dados_api)
         else:
             print(dados_api)
 
