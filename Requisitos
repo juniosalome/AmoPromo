@@ -16,3 +16,6 @@ Install
 - sudo systemctl enable snapd
 - sudo systemctl start snapd.service
 - sudo snap install vue
+
+Referencias
+https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/
