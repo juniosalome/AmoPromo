@@ -7,3 +7,12 @@ Requisitos
 
 Install
 - pip install requests
+- npm instll @vue/cli
+- sudo zypper addrepo --refresh https://download.opensuse.org/repositories/system:/snappy/openSUSE_Leap_15.1 snappy
+- sudo zypper --gpg-auto-import-keys refresh
+- sudo zypper dup --from snappy
+- sudo systemctl enable snapd
+- sudo systemctl start snapd
+- sudo systemctl enable snapd
+- sudo systemctl start snapd.service
+- sudo snap install vue
